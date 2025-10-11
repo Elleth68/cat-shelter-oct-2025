@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
-				"dev": "node --watch src/index.js"
+    "dev": "node --watch src/index.js"
   },
   "repository": {
     "type": "git",
@@ -14,6 +14,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/Elleth68/cat-shelter-oct-2025/issues"
   },
