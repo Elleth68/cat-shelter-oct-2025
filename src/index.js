@@ -15,6 +15,10 @@ const server = http.createServer(async (req, res) => {
 			html = await addBreedView();
 			break;
 
+		case '/cats/add-cat':
+			html = await addCatView();
+			break;
+
 		default:
 			return res.end();
 			break;
@@ -44,6 +48,11 @@ async function homeView() {
 
 async function addBreedView() {
 	const html = await fs.readFile('./src/views/addBreed.html', { encoding: 'utf-8' });
+	return html;
+}
+
+async function addCatView() {
+	const html = await fs.readFile('./src/views/addCat.html', { encoding: 'utf-8' });
 	return html;
 }
 
