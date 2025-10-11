@@ -5,5 +5,5 @@ SoftUni JS Back End Course Project
 ## TO DO
 
 - [ ] Initialize NodeJS Project
-- [ ] Dev environment
-- [ ] 
+- [ ] Dev environment	
+  - [ ] 
