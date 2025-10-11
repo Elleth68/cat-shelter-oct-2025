@@ -8,3 +8,6 @@ SoftUni JS Back End Course Project
 - [x] Dev script
 - [x] Debugging
 - [x] Add basic http server
+- [x] Show home page
+- [x] Add css
+- [ ] 
