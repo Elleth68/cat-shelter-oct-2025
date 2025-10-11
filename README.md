@@ -12,3 +12,5 @@ SoftUni JS Back End Course Project
 - [x] Add css
 - [x] Read home html from file system
 - [x] Read site css from file system
+- [ ] Add create breed page
+- [ ] Add create cat page
