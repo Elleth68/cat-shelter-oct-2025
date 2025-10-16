@@ -17,5 +17,5 @@ SoftUni JS Back End Course Project
 - [x] Render view generic function
 - [x] Render dynamic cats on home page
 - [x] Add cats from add-cats page
-- [ ] Redirect to home page
 - [x] Conditional rendering with cats 
+- [ ] Redirect to home page

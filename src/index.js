@@ -18,7 +18,15 @@ const server = http.createServer(async (req, res) => {
 			const searchParams = new URLSearchParams(data);
 			const newCat = Object.fromEntries(searchParams.entries());
 			cats.push(newCat);
+
+			res.writeHead(302, {
+				'location': '/'
+			});
+
+			res.end();
 		});
+
+		return;
 	}
 
 	switch (req.url) {
