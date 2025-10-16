@@ -19,7 +19,7 @@ const server = http.createServer(async (req, res) => {
 			const newCat = Object.fromEntries(searchParams.entries());
 			cats.push(newCat);
 
-			res.writeHead(302, {
+			res.writeHead(301, {
 				'location': '/'
 			});
 
